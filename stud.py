@@ -43,11 +43,11 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
 
-# SMTP configuration (replace with your own details)
-SMTP_SERVER = 'smtp.gmail.com'  # Example for Gmail
+# SMTP configuration (replace this with your own details)
+SMTP_SERVER = 'smtp.gmail.com' 
 SMTP_PORT = 587
-SMTP_USERNAME = 'kiphillary854@gmail.com'  # Your email
-SMTP_PASSWORD = 'nekhqmjseaqeqwin'  # Use app password for Gmail
+SMTP_USERNAME = 'kiphillary854@gmail.com'  # email
+SMTP_PASSWORD = 'nekhqmjseaqeqwin'  # app password for Gmail
 
 
 def send_reset_email(to_email, token):
