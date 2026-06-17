@@ -77,7 +77,7 @@ def send_reset_email(to_email, token):
         return False
 
 
-# HTML Templates as Strings
+
 INDEX_HTML = """
 <!DOCTYPE html>
 <html lang="en">
@@ -110,7 +110,7 @@ body {
 }
 </style>
 <style>
-    /* Simple navigation bar styling */
+    /* navigation bar styling */
     nav {
       background-color: #333;
       padding: 10px;
